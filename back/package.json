@@ -1,0 +1,36 @@
+{
+  "name": "voting-backend",
+  "version": "1.0.0",
+  "description": "## Общие сведения",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vad21im/core-express-blog-anonymous.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vad21im/core-express-blog-anonymous/issues"
+  },
+  "homepage": "https://github.com/Vad21im/core-express-blog-anonymous#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "compression": "^1.7.4",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.9.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.10.0",
+    "mpath": "^0.8.4",
+    "multer": "^1.4.2",
+    "node-fetch": "^2.6.1",
+    "path": "^0.12.7",
+    "ws": "^8.2.1"
+  }
+}
